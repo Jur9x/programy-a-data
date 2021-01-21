@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programové a datové soubory</title>
+    <link rel="stylesheet" href="../css/stylev.css">
+</head>
+<body>
+    <header>
+      </header>
+<main>
+    <section class="border">
+        <div class="text">
+        <br>
+        <div class="sNadpis">
+            <h2>Programové a datové soubory</h2>
+        </div>
+                <p>  
+                    <abbr title="File"><strong>Soubor</strong></abbr> je množina souvisejících dat uložených na diskové jednotce.
+                    Název souboru je obvykle tvořen <abbr title="ve Windows až 254znaků">jménem</abbr> a příponou, která naznačuje
+                    <strong>typ
+                        souboru</strong>.
+                    K dalším vlastnostem souboru patří jeho velikost, <abbr title="Vlastník">autor</abbr>, 
+                    datum vytvoření, datum změny, atributy, přístupová práva apod.
+                </p>
+                <p>K přehlednější práci se soubory slouží systém <abbr title="Directories, folders"><strong>adresářů</strong></abbr> či složek.
+                Adresáře tvoří na disku typicky hierarchickou <abbr title="Tree - strom">strukturu</abbr>;
+                základem je tzv. <abbr title="Root"><strong>kořenový adresář</strong></abbr> označený
+                symbolem „/“ (
+                <a href="https://cs.wikipedia.org/wiki/Unix" target="_blank">Unix</a>, 
+                <a href="https://www.linux.org/" target="_blank">Linux</a>), nebo „\“ (
+                <a href="https://www.microsoft.com/cs-cz/windows" target="_blank">Windows</a>). 
+                        Každý adresář může
+                obsahovat soubory i <abbr title="Subdirectories"><strong>podadresáře</strong></abbr>.
+            </p>
+                    <img src="img/ul.JPG" alt="Obrázek ukazující logo linuxu">
+                <p>
+                    <abbr title="Path"><strong>Cesta</strong></abbr> vyjadřuje umístění souboru vždy směrem od nejvyššího
+                    adresáře: <em>
+                        C:\XAMPP\mysql\bin\mysql.exe</em>. Pro operace se soubory využíváme někdy
+                    <abbr title="Wildcards">zástupové znaky</abbr>:
+                </p>
+                <ol>
+                    <li>Symbol <strong>*</strong> nahrazuje v názvu libovolný počet znaků (např. *.*);</li>
+                    <li>Symbol <strong>?</strong> nahrazuje jeden libovolný znak (např. s?s.txt).</li>
+                </ol>
+                <p>
+                    <strong>Programové soubory</strong> obsahují instrukce, podle nichž procesor ve
+                    spolupráci s dalšími hardwarovými komponentami plní konkrétní úlohy.
+                    Mohou být uloženy v již zkompilované <abbr title="Nejčastěji ve strojovém kódu pro danou platformu">binární podobě</abbr>, 
+                    nebo ve <strong>zdrojovém kódu</strong>,
+                    obsahujícím
+                    příkazy určitého programovacího jazyka. Mezi programové
+                    soubory můžeme zařadit také <strong>skripty</strong>, soubory instrukcí v textové podobě, které
+                    ke svému
+                    spuštění vyžadují speciální program - 
+                    <a href="https://cs.wikipedia.org/wiki/Interpret_(software)" target="_blank"><strong>interpret</strong></a>.
+                <p>
+                <p>Větší programy jsou tvořeny <abbr title="Runtime libraries"><strong>programovými knihovnami</strong></abbr>,
+                    speciálními soubory s připravenými funkcemi, které programy využívají pro
+                    svůj běh. Ve 
+                    <a href="https://www.microsoft.com/cs-cz/windows" target="_blank">Windows</a> 
+                    to jsou např. soubory <abbr title="Obsahující zejména ovladače čili drivery, ale i systémové funkce"><em>DRV</em></abbr> a 
+                    <abbr title="Obsahující zejména ovladače čili drivery, ale i systémové funkce"><em>SYS</em></abbr>, nebo také
+                    <a title="Dynamic linking library - dynamicky linkované knihovny" href="https://cs.wikipedia.org/wiki/DLL" target="_blank"><strong>DLL</strong></a>>, 
+                    které mohou být podle potřeby za běhu (dynamicky) připojeny k jednomu i více programům.
+                </p>
+                    <img src="img/dll.JPG" alt="Obrázek ikonky dll souboru">               
+                <p>
+                    Některé soubory s tzv. <abbr title="např. .exe a .com ve Windows, .sh v Linuxu">
+                    <a href="https://cs.wikipedia.org/wiki/Spustiteln%C3%BD_soubor" target="_blank"><strong>spustitelnou příponou</strong></a></abbr> slouží
+                    ke spuštění programu - aktivaci procesu v rámci
+                    operačního systému. Za <abbr title="Služby, démony"><strong>rezidentní programy</strong></abbr> označujeme
+                    ty procesy, které jsou <abbr title="např. antivirové programy">spuštěny automaticky</abbr> po iniciaci operačního systému.
+                </p>
+                <p>
+                    <strong>Datové soubory</strong> obsahují data různého <abbr title="číselné, textové,
+                    grafické, zvukové údaje">charakteru</abbr>. K jejich zpracování se používají konkrétní
+                    programy, a proto jsou často přípony těchto datových souborů <abbr title="Propojeny">asociovány</abbr> s určitou
+                    <abbr title="např. DOCX s programem MS Word, nebo XLSX s programem MS Excel">aplikací</abbr>.
+                </p>   
+            </div>
+    </section>
+    <br>
+</main>
+<footer>
+    <div class="head">
+        <h1><a id="hl" href="../index.html">PROGRAMY A DATA</a></h1>
+        </div>  
+        <div class="boxyv">
+            <div class="boxpravidla"><a href="../pads/index.html"><p class="boxpr" id="current">Programové a datové soubory</p></a></div>
+            <div class="boxpravidla"><a href="../saaz/index.html"><p class="boxpr">Software a autorský zákon</p></a></div>
+            <div class="boxpravidla"><a href="../ofau/index.html"><p class="boxpr">Ovladače, fireware a utility</p></a></div>
+            <div class="boxpravidla"><a href="../as/index.html"><p class="boxpr">Aplikační soubory</p></a></div>
+            <div class="boxpravidla"><a href="../eav/index.html"><p class="boxpr">Emulace a virtualizace</p></a></div>
+            </div>
+    <div class="copy">
+        <h1>&copy; Ryba Jiří 2021, <a id="copyodkaz" href="https://www.sspu-opava.cz/cs/" target="_blank">SŠPU Opava</a></h1>
+    </div>
+  </footer>
+</body>
+</html>

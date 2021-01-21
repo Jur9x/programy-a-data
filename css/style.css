@@ -1,0 +1,52 @@
+body {
+    display: flex;
+    justify-content: center;
+    background-image:url(../img/a.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+header {
+    height: 10%;
+    margin-left: 12%;
+    margin-right: 13%;
+    min-width: 30%;
+    max-width: 40%;
+    text-align: left;
+    margin-top: 21%;
+}
+a {
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+}
+#white {
+    color: honeydew;
+    font-size: 25px;
+    text-decoration: none;
+}
+main {
+    margin-left: 13%;
+    margin-right: 13%;
+    margin-top: 15%;
+    max-width: 40%;
+}
+.box1{
+    text-align: right;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.box1i{
+    font-size: 30px;
+    display: inline;
+}
+.box1i:hover {
+    border-bottom: rgb(0, 204, 255) 5px solid;
+    border-radius: 3px;
+    color:rgb(0, 204, 255);
+}
+.copy {
+    color: honeydew;
+}
+#copyodkaz {
+    color: honeydew;
+    text-decoration: none;
+}
